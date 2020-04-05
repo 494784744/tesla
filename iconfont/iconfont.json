@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11556679",
+      "name": "下箭头备份 2",
+      "font_class": "xiajiantoubeifen",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "11556692",
+      "name": "切换列",
+      "font_class": "qiehuanlie",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "11556693",
+      "name": "关闭备份",
+      "font_class": "guanbibeifen",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    }
+  ]
+}

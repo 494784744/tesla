@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="xiajiantoubeifen" unicode="&#58897;" d="M903.232 640l56.768-50.432L512 128 64 589.568 120.768 640 512 236.928z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="qiehuanlie" unicode="&#58899;" d="M64 704h896v-76.8H64V704z m0-281.6h896v-76.8H64V422.4z m0-281.6h896V64H64v76.8z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="guanbibeifen" unicode="&#58901;" d="M512 438.4L905.6 832l54.336-54.336-393.6-393.6L960-9.6l-54.4-54.4L512 329.664 118.4-64 64-9.6 457.6 384 64 777.664 118.336 832l393.6-393.6z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

@@ -1,0 +1,703 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "microsoft yahei ";
+}
+span,
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.titleS {
+  font-weight: 400;
+  font-size: 17px;
+}
+.titleL {
+  font-size: 28px;
+  font-weight: 500;
+}
+.page {
+  width: 100%;
+  height: 720px;
+}
+.cards {
+  height: 66px;
+  text-align: center;
+}
+.cards .card-1,
+.card-2,
+.card-3 {
+  float: left;
+  width: 33%;
+  height: 66px;
+}
+.cards .card-2 {
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+.cards .num {
+  font-size: 28px;
+  font-weight: bold;
+}
+.cards .unit {
+  font-size: 20px;
+}
+.cards p {
+  font-size: 12px;
+}
+.cards .sm {
+  height: 42px;
+  line-height: 42px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.btn {
+  width: 149px;
+  height: 40px;
+  border: 3px solid #000000;
+  font-size: 12px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+.sign {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+.know {
+  font-size: 12px;
+  margin: 0px 10px;
+}
+.btn:hover,
+.sign:hover {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.poke .slot {
+  width: 100%;
+  height: 33%;
+  overflow: hidden;
+}
+.poke p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.title-1 {
+  margin-top: 32px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.title-2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.title-3 {
+  width: 40px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: 600;
+}
+.title-line {
+  width: 60px;
+  height: 2px;
+  background-color: #000000;
+}
+body {
+  position: relative;
+}
+body .logo {
+  z-index: 99999999999;
+  top: 17px;
+  left: 20px;
+  position: fixed;
+  width: 100px;
+  height: 18px;
+}
+body nav {
+  z-index: 99999999999;
+  position: fixed;
+  width: 120px;
+  height: 252px;
+  top: 200px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #ffffff70;
+}
+body nav ul {
+  margin-left: 10px;
+  width: 120px;
+  height: 252px;
+}
+body nav ul li {
+  border-left: 1px solid #ffffff70;
+  margin: 3px 0px;
+  height: 22px;
+  line-height: 22px;
+  cursor: pointer;
+}
+body nav ul li span {
+  margin-left: 5px;
+  display: none;
+}
+body .Model_S {
+  background: url(../images/model-s@2x.jpg) no-repeat center;
+  background-size: 1550px;
+}
+body .Model_S .nav {
+  height: 52px;
+  width: 100%;
+}
+body .Model_S .nav .menu {
+  margin-left: 470px;
+  float: left;
+  width: 40%;
+  height: 52px;
+}
+body .Model_S .nav .menu ul li {
+  float: left;
+  line-height: 52px;
+  text-align: center;
+  width: 16%;
+  font-size: 14px;
+  font-weight: bold;
+}
+body .Model_S .nav .menu ul li a {
+  color: #FFFFFF;
+}
+body .Model_S .nav .login {
+  float: right;
+  width: 5%;
+  height: 52px;
+}
+body .Model_S .nav .login a,
+body .Model_S .nav .login span {
+  line-height: 52px;
+  color: #FFFFFF;
+}
+body .Model_S .nav .login a {
+  font-size: 14px;
+  padding-right: 10px;
+}
+body .Model_S .title {
+  text-align: center;
+  color: #FFFFFF;
+  height: 520px;
+  overflow: hidden;
+  display: none;
+}
+body .Model_S .title h2 {
+  margin-top: 60px ;
+}
+body .Model_S .title h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+body .Model_S .lead {
+  width: 43%;
+  height: 66px;
+  margin: 0 auto;
+  display: none;
+}
+body .Model_S .lead .c1 {
+  width: 70%;
+  float: left;
+}
+body .Model_S .lead .c1 span {
+  margin-top: 5px;
+}
+body .Model_S .lead .c1 p {
+  margin-top: 4px;
+}
+body .Model_S .lead .box {
+  float: left;
+  width: 30%;
+  height: 66px;
+}
+body .Model_S .lead .box input {
+  margin-top: 12px;
+}
+body .Model_S .tips {
+  height: 80px;
+  text-align: center;
+  overflow: hidden;
+  display: none;
+}
+body .Model_S .tips p {
+  margin-top: 20px;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+body .Model_S .tips span {
+  font-size: 25px;
+}
+body .safety .left {
+  float: left;
+  width: 28%;
+  height: 720px;
+  font-family: "microsoft yahei light";
+}
+body .safety .left .top {
+  height: 600px;
+  overflow: hidden;
+  color: #393c41;
+}
+body .safety .left .top h2 {
+  margin-top: 52px;
+  margin-left: 52px;
+  font-size: 17px;
+  display: none;
+}
+body .safety .left .top h1 {
+  margin-left: 52px;
+  font-size: 28px;
+  font-weight: 500;
+  display: none;
+}
+body .safety .left .top p {
+  margin: 20px 52px;
+  font-size: 14px;
+  line-height: 25px;
+  display: none;
+}
+body .safety .left .down {
+  display: none;
+}
+body .safety .left .down .l {
+  margin-left: 52px;
+}
+body .safety .right {
+  float: left;
+  width: 72%;
+  height: 720px;
+  background: #f4f4f4 url(../images/model_s_hero_v2.png) no-repeat -280px center;
+  background-size: 1500px;
+}
+body .safety .right ul {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 720px;
+}
+body .safety .right ul li {
+  position: absolute;
+  list-style: none;
+  height: 210px;
+  width: 80px;
+}
+body .safety .right ul li .txt {
+  float: right;
+}
+body .safety .right ul li .line {
+  margin-left: 5px;
+  width: 3px;
+  height: 200px;
+  background-color: #000000;
+}
+body .safety .right ul li .dot {
+  width: 8px;
+  height: 8px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+body .safety .right ul .num1 {
+  top: 145px;
+  left: 240px;
+}
+body .safety .right ul .num2 {
+  top: 62px;
+  left: 519px;
+}
+body .safety .right ul .num2 .line {
+  height: 115px;
+}
+body .safety .right ul .num3 {
+  width: 115px;
+  top: 448px;
+  left: 607px;
+}
+body .safety .right ul .num3 .txt {
+  margin-top: 125px;
+}
+body .safety .right ul .num3 .line {
+  height: 150px;
+  margin-left: 4px;
+  display: inline-block;
+}
+body .property .top {
+  width: 100%;
+  height: 70%;
+  background: url(../images/model-s-performance.jpg) no-repeat center center;
+  background-size: 1519px;
+  overflow: hidden;
+}
+body .property .top .c2 {
+  display: none;
+  margin: 0 auto;
+  margin-top: 400px;
+  height: 66px;
+  width: 65%;
+  color: #FFFFFF;
+  text-align: left;
+}
+body .property .top .c2 .box {
+  margin: 0 auto;
+  width: 90%;
+  height: 66px;
+}
+body .property .down {
+  margin: 0 auto;
+  width: 65%;
+  height: 30%;
+  color: #393c41;
+}
+body .property .down .left {
+  width: 35%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  display: none;
+}
+body .property .down .left h2 {
+  margin-top: 45px;
+}
+body .property .down .left h1 {
+  margin-bottom: 18px;
+}
+body .property .down .right {
+  width: 65%;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+  display: none;
+}
+body .property .down .right p {
+  margin-top: 45px;
+  font-size: 14px;
+  line-height: 25px;
+}
+body .endurance .left {
+  width: 72%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+body .endurance .left video {
+  width: 100% ;
+  height: 100%;
+  object-fit: cover;
+  z-index: -9999;
+}
+body .endurance .left .c3 {
+  position: absolute;
+  width: 760px;
+  height: 84px;
+  bottom: 70px;
+  left: 50%;
+  margin-left: -380px;
+  color: #FFFFFF;
+  display: none;
+}
+body .endurance .left .c3 .son {
+  height: 84px;
+}
+body .endurance .left .c3 .son .box {
+  margin: 0 auto;
+  width: 90%;
+  height: 84px;
+  text-align: left;
+  overflow: hidden;
+}
+body .endurance .left .c3 .son .box span {
+  margin-top: 5px;
+}
+body .endurance .right {
+  width: 28%;
+  height: 100%;
+  float: left;
+}
+body .endurance .right .top {
+  height: 600px;
+  width: 100%;
+  color: #393c41;
+  overflow: hidden;
+  display: none;
+}
+body .endurance .right .top h2 {
+  margin-left: 30px;
+  margin-top: 52px;
+}
+body .endurance .right .top h1 {
+  margin-left: 30px;
+}
+body .endurance .right .top p {
+  margin: 30px 40px 0px 30px;
+  font-size: 14px ;
+  line-height: 25px;
+}
+body .endurance .right .down {
+  display: none;
+}
+body .endurance .right .down .l {
+  margin-left: 30px;
+}
+body .aided .top {
+  height: 70%;
+  width: 100%;
+  position: relative;
+}
+body .aided .top video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -999;
+}
+body .aided .top .p1 {
+  position: absolute;
+  top: 50%;
+  margin-top: -175px;
+  left: 126px;
+  width: 28%;
+  height: 75%;
+  display: none;
+}
+body .aided .top .p1 p {
+  color: #393c41;
+}
+body .aided .down {
+  margin: 0 auto;
+  width: 65%;
+  height: 30%;
+  color: #393c41;
+}
+body .aided .down .left {
+  width: 35%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  display: none;
+}
+body .aided .down .left h2 {
+  margin-top: 45px;
+}
+body .aided .down .left h1 {
+  margin-bottom: 18px;
+}
+body .aided .down .right {
+  width: 65%;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+  display: none;
+}
+body .aided .down .right p {
+  margin-top: 45px;
+  font-size: 14px;
+  line-height: 25px;
+}
+body .interior .top {
+  height: 70%;
+  width: 100%;
+  position: relative;
+  background: url(../images/hero@2_1.jpg) no-repeat center center;
+  background-size: 1519px;
+}
+body .interior .top .p2 {
+  position: absolute;
+  top: 50%;
+  margin-top: -175px;
+  right: 50px;
+  width: 20%;
+  height: 75%;
+  color: #FFFFFF;
+  display: none;
+}
+body .interior .top .p2 span img {
+  width: 32px;
+  height: 32px;
+}
+body .interior .down {
+  margin: 0 auto;
+  width: 65%;
+  height: 30%;
+  color: #393c41;
+}
+body .interior .down .left {
+  width: 35%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  display: none;
+}
+body .interior .down .left h2 {
+  margin-top: 45px;
+}
+body .interior .down .left h1 {
+  margin-bottom: 18px;
+}
+body .interior .down .right {
+  width: 65%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  display: none;
+}
+body .interior .down .right p {
+  margin-top: 45px;
+  font-size: 14px;
+  line-height: 25px;
+}
+body .appearance {
+  background: url(../images/hero-high-viewport.jpg) no-repeat center;
+  background-size: 1550px;
+}
+body .appearance .top {
+  height: 70%;
+  width: 100%;
+  overflow: hidden;
+}
+body .appearance .top .c3 {
+  width: 65%;
+  height: 88px;
+  margin: 0 auto;
+  margin-top: 52px;
+  text-align: left;
+  display: none;
+}
+body .appearance .top .c3 .box {
+  margin: 0 auto;
+  width: 90%;
+  height: 88px;
+  position: relative;
+}
+body .appearance .top .c3 .box .order {
+  margin-top: 15px;
+  width: 40px;
+  height: 40px;
+}
+body .appearance .top .c3 .box .car {
+  margin-top: 20px;
+  width: 70px;
+  height: 35px;
+}
+body .appearance .top .c3 .box .cp {
+  width: 28px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+}
+body .appearance .top .c3 .box .abs {
+  position: absolute;
+  top: 14px;
+  padding: 0px 5px;
+}
+body .appearance .top .c3 .box .two {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+body .appearance .down {
+  margin: 0 auto;
+  width: 65%;
+  height: 30%;
+  color: #393c41;
+}
+body .appearance .down .left {
+  width: 35%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  display: none;
+}
+body .appearance .down .left h2 {
+  margin-top: 45px;
+}
+body .appearance .down .left h1 {
+  margin-bottom: 18px;
+}
+body .appearance .down .right {
+  width: 65%;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+  display: none;
+}
+body .appearance .down .right p {
+  margin-top: 45px;
+  font-size: 14px;
+  line-height: 25px;
+}
+body .specification {
+  background: #000000 url(../images/MS-specs-desktop.jpg) no-repeat 35px 70px;
+  background-size: 650px;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+body .specification .data {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+body .specification .data .top {
+  overflow: hidden;
+  height: 200px;
+}
+body .specification .data .top h1 {
+  display: none;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+body .specification .data .top .btnbk {
+  display: none;
+  background: #000000;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  width: 227px;
+  margin-right: 10px;
+}
+body .specification .data .down {
+  width: 100%;
+  height: 450px;
+}
+body .specification .data .down ul {
+  width: 244px;
+  height: 450px;
+  float: left;
+  display: none;
+}
+body .specification .data .down ul li {
+  width: 244px;
+  height: 70px;
+}
+body .specification .data .down ul li .li-line {
+  width: 30px;
+  height: 6px;
+  border-top: 1px solid #FFFFFF;
+}
+body .specification .data .down ul li span {
+  display: block;
+  font-size: 14px;
+}
+body .purchase {
+  background: url(../images/models@2.jpg) no-repeat 450px center;
+  background-size: 1050px;
+}
+body .purchase .top {
+  width: 40%;
+  height: 90%;
+  text-align: center;
+  overflow: hidden;
+}
+body .purchase .top h1 {
+  margin-top: 280px;
+  margin-bottom: 20px;
+}
+body .purchase .down {
+  width: 32%;
+  height: 10%;
+  margin: 0 auto;
+}
